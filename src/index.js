@@ -3,6 +3,11 @@
 const fathersYearsOld = prompt("How old is Fathrer?", 28);
 const sonsYearsOld = prompt("How old is Son?", 20);
 
+/** Documentation of ageCount
+ * @param {number} father 
+ * @param {number} son 
+ */
+
 const ageCount = (father, son) => { 
     if (son <= 0) {
         alert("A son hasn't been born yet at this age!")
